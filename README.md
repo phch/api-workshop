@@ -1,7 +1,7 @@
 # Introduction
 I created this project for a team workshop (8 engineers) on October 27, 2020. Its purpose was to help our team learn development outside of the internal tooling and ecosystem. 
 
-This project specifically is building a web server and helped me become more familiar with REST API development, Postman, IntelliJ, and design patterns.
+In this project, we build a Glassfish web server running locally on IntelliJ and implement REST APIs for /tweets and /users. We use Postman to verify that changes are made correctly and learned about patterns like DAO, Repository, and Filter.
 
 # Setup
 ## Postman 
