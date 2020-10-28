@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+apply plugin: 'idea'
+
+group 'com.restclient.demo'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    // Jersey Client
+    implementation('org.glassfish.jersey.containers:jersey-container-servlet:2.31')
+    implementation('org.glassfish.jersey.core:jersey-client:2.31')
+
+    // TestNG
+    testImplementation('org.testng:testng:7.1.0')
+}
+
+test {
+    useTestNG()
+}
