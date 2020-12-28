@@ -10,7 +10,7 @@ Postman Collection URL: https://www.getpostman.com/collections/ff8bc66a38693b02d
 
 ## Code Repo
 Download IntelliJ Ultimate: https://www.jetbrains.com/idea/
-Open IntelliJ, clone this git repository by going to File > New > Project form Version Control
+Open IntelliJ, clone this git repository by going to File > New > Project form Version Control. Paste in the repository clone URL.
 
 ## Glassfish
 Download Glassfish: download.oracle.com/glassfish/5.0.1/release/glassfish-5.0.1-web.zip (http://download.oracle.com/glassfish/5.0.1/release/glassfish-5.0.1-web.zip)  
