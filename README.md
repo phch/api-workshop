@@ -9,7 +9,7 @@ Download Postman: https://www.postman.com/downloads/
 Postman Collection URL: https://www.getpostman.com/collections/ff8bc66a38693b02dc71
 
 ## Code Repo
-Download IntelliJ Ultimate: https://www.jetbrains.com/idea/
+Download IntelliJ Ultimate: https://www.jetbrains.com/idea/  
 Open IntelliJ, clone this git repository by going to File > New > Project form Version Control. Paste in the repository clone URL.
 
 ## Glassfish
@@ -33,5 +33,5 @@ Now you should be able to run a local server by clicking the bottom tab bar of I
 There are several tasks contained in the source code. Clone the git repository and complete the tasks - search for "Task" in the project files.
 
 ## Testing
-Start the Glassfish server to test your changes. This will bring up a local server at http://localhost:8080/. 
+Start the Glassfish server to test your changes. This will bring up a local server at http://localhost:8080/.   
 You will be using Postman to execute HTTP requests against the local server to verify everything works.
