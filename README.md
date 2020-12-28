@@ -27,3 +27,11 @@ On your IntelliJ, configure the application server following these instructions:
 Now you should be able to run a local server by clicking the bottom tab bar of IntelliJ > Services > Glassfish > Run. You can try opening a web page with the local port or hitting the server using Postman. The URL should be something like this: http://localhost:8080/RestClientDemo-1.0-SNAPSHOT/tweets
 
 ![IntelliJ Web Server Running with Glassfish](img/intellij-server-running.png)
+
+# Usage
+## Tasks
+There are several tasks contained in the source code. Clone the git repository and complete the tasks - search for "Task" in the project files.
+
+## Testing
+Start the Glassfish server to test your changes. This will bring up a local server at http://localhost:8080/. 
+You will be using Postman to execute HTTP requests against the local server to verify everything works.
